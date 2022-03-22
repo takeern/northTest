@@ -1,0 +1,40 @@
+/*!
+ * 
+ *       MCM Version:1.0.3
+ *       Publish time: Tue Mar 22 2022 16:52:14 GMT+0800 (中国标准时间),
+ *       file:main.css
+ *
+ */
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: #0f1a17;
+  padding-top: 100px;
+  text-align: center;
+}
+.text {
+  color: white;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .appLogo {
+    animation: logoSpin infinite 20s linear;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@keyframes logoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+}
+
+
+/*# sourceMappingURL=main.css.map*/

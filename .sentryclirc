@@ -1,0 +1,6 @@
+[defaults]
+url = 'http://47.243.231.246:9000/'
+org = 'north'
+project = 'mcm-react-test'
+[auth]
+token = e075f39a6b7648219079a1c7aadfb613865cb64e89c948759c2f954eaf4a4522

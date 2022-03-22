@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "esNext",
+    "target": "es2015",
+    "jsx": "preserve",
+    "lib": ["esnext", "dom"],
+    "alwaysStrict": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": false,
+    "moduleResolution": "Node",
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "outDir": "lib",
+    "rootDir": "./",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+  },
+  "include": ["src/**/*", "src/north.config.ts"],
+  "exclude": ["node_modules", "lib", "*.js"]
+}
